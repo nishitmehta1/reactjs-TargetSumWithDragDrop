@@ -1,33 +1,113 @@
+/* BackgroundColor: #533A7B */
+/* Number Card color: #60B2E5 */
+/* Font: white */
+
+.AppBody {
+  background-color: #533a7b;
+  height: 100%;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.game {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.targetSum {
+  min-height: 320px;
+}
+
+.reset {
+  background-color: #35254f !important;
+  border-color: #3d2b5a !important;
+  margin-top: 2%;
+  margin-bottom: 1em;
+  font-size: 1.4em !important;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.target,
+.current,
+.selected,
+.options {
+  font-family: 'Source Code Pro', monospace;
+  color: #533a7b;
+}
+
+.number,
+.optionsNumber,
+.selectedNumber {
+  font-size: 2em;
+}
+
+.optionsDiv,
+.selectedNumberDiv,
+.listSelected {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-around;
+}
+
+.numberOptions {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.selected,
+.mainSelected {
+  min-height: 120px;
+}
+
+.selectedNumber {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: #533a7b;
+  text-align: center;
+  width: 3em;
+  color: white;
+  border-radius: 0.19em;
+}
+
+.optionsNumber {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: #533a7b;
+  text-align: center;
+  width: 4em;
+  color: white;
+  border-radius: 0.19em;
+}
+
+.dottedBorder {
+  border: dotted;
+}
+
+.grey {
+  margin-top: 1em;
+  color: rgb(158, 158, 158);
+}
+
+.red {
+  color: red;
+}
+
+.winMessage {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  width: 26em;
+  border-radius: 0.5em;
+  border: white solid;
+  margin-top: 2em;
+  text-align: center;
+  margin-bottom: 1em;
+  font-family: 'Source Code Pro', monospace;
 }
