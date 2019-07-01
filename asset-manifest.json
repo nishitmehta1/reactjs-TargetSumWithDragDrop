@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/reactjs-TargetSumWithDragDrop/static/css/main.7e7c6f34.chunk.css",
+    "main.js": "/reactjs-TargetSumWithDragDrop/static/js/main.1cf56c88.chunk.js",
+    "main.js.map": "/reactjs-TargetSumWithDragDrop/static/js/main.1cf56c88.chunk.js.map",
+    "runtime~main.js": "/reactjs-TargetSumWithDragDrop/static/js/runtime~main.0500d17c.js",
+    "runtime~main.js.map": "/reactjs-TargetSumWithDragDrop/static/js/runtime~main.0500d17c.js.map",
+    "static/css/2.0624914a.chunk.css": "/reactjs-TargetSumWithDragDrop/static/css/2.0624914a.chunk.css",
+    "static/js/2.b7ca5975.chunk.js": "/reactjs-TargetSumWithDragDrop/static/js/2.b7ca5975.chunk.js",
+    "static/js/2.b7ca5975.chunk.js.map": "/reactjs-TargetSumWithDragDrop/static/js/2.b7ca5975.chunk.js.map",
+    "index.html": "/reactjs-TargetSumWithDragDrop/index.html",
+    "precache-manifest.bc71cb290cb905d5bfa871d14b8017fc.js": "/reactjs-TargetSumWithDragDrop/precache-manifest.bc71cb290cb905d5bfa871d14b8017fc.js",
+    "service-worker.js": "/reactjs-TargetSumWithDragDrop/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/reactjs-TargetSumWithDragDrop/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.7e7c6f34.chunk.css.map": "/reactjs-TargetSumWithDragDrop/static/css/main.7e7c6f34.chunk.css.map"
+  }
+}
