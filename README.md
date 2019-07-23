@@ -1,5 +1,5 @@
 ## Live Demo
-https://nishitmehta1.github.io/reactjs-TargetSumWithDragDrop/
+https://agile-sands-15137.herokuapp.com/
 
 ## Frameworks and Technologies Used:
 * Reactjs
